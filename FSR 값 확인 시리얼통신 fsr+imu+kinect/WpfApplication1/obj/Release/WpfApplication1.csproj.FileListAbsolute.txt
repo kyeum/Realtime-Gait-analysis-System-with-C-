@@ -1,0 +1,377 @@
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication2\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication3\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication4\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication5\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6-1\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication6\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication7\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication8\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication10\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication9\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication11\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication12\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication13\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golf_swing_system\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\골프스윙시스템 최신\WpfApplication14\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\골프스윙시스템 최신\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\골프스윙시스템 최신\WpfApplication14\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\골프스윙시스템 최신\fsronly\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\골프스윙시스템 최신\fsronly\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\bin\Release\Microsoft.Speech.dll
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\fsronly_new\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\Microsoft.Speech.dll
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\Microsoft.Speech.dll
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\WpfApplication1.exe.config
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.exe
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.pdb
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\WpfApplication1.exe
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\WpfApplication1.pdb
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\CRC.dll
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\Microsoft.Kinect.dll
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\bin\Release\Microsoft.Kinect.xml
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\MainWindow.g.cs
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\App.g.cs
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\MainWindow.baml
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.g.resources
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+C:\Users\a\Desktop\golfswing_new\FSR 값 확인 시리얼통신 fsr+imu+kinect\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
