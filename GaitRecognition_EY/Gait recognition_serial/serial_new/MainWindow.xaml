@@ -27,8 +27,8 @@
             <ComboBoxItem Content="115200"/>
             <ComboBoxItem Content="230400"/>
         </ComboBox>
-        <Button Content="시작" HorizontalAlignment="Left" Margin="121,313,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.52,0" Click="Button_Click" Height="22"/>
-        <Button Content="끝" HorizontalAlignment="Left" Margin="212,313,0,0" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.52,0" Click="Button_Click_1" Height="22"/>
+        <Button Content="시작" HorizontalAlignment="Left" Margin="121,313,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.52,0" Click="Button_Start" Height="22"/>
+        <Button Content="끝" HorizontalAlignment="Left" Margin="212,313,0,0" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.52,0" Click="Button_End" Height="22"/>
         <TextBox x:Name="txtname" HorizontalAlignment="Right" Height="26" Margin="0,0,220,371" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="66" RenderTransformOrigin="0.5,0.5" Text="TEST1">
             <TextBox.RenderTransform>
                 <TransformGroup>
@@ -42,12 +42,12 @@
 
         <TextBox  x:Name="acc_box" HorizontalAlignment="Left" Height="23" Margin="5,14,-9,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="14" Visibility="Hidden" Grid.Column="2"/>
         <TextBox  x:Name="time_box" HorizontalAlignment="Left" Height="23" Margin="5,14,-9,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="14" Visibility="Hidden" Grid.Column="2"/>
-        <TextBox  x:Name="time1_box" HorizontalAlignment="Left" Height="23" Margin="5,14,-9,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="14" Visibility="Hidden" Grid.Column="2"/>
-        <Canvas x:Name="COP_Draw" Height="242" Margin="57,0,0,245" VerticalAlignment="Bottom" RenderTransformOrigin="0.316,0.31" HorizontalAlignment="Left" Width="282" Grid.Column="1">
+        <Canvas x:Name="COP_Draw" Height="250" Margin="57,0,0,245" VerticalAlignment="Bottom" RenderTransformOrigin="0.316,0.31" HorizontalAlignment="Left" Width="280" Grid.Column="1">
             <Canvas.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/leftright.jpg"/>
             </Canvas.Background>
         </Canvas>
+        <TextBox  x:Name="time1_box" HorizontalAlignment="Left" Height="23" Margin="5,14,-9,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="14" Visibility="Hidden" Grid.Column="2"/>
         <TextBox  x:Name="Time" HorizontalAlignment="Left" Height="22" Margin="49,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" IsReadOnly="True" Grid.Column="1"/>
         <Button x:Name="Path" Content="저장 경로" HorizontalAlignment="Left" Margin="123,148,0,0" VerticalAlignment="Top" Width="75" Click="Path_Click" Height="22"/>
         <Label Content="Time" HorizontalAlignment="Left" Margin="7,41,0,0" VerticalAlignment="Top" Width="40" Height="26" Grid.Column="1"/>
@@ -56,19 +56,23 @@
         <Label Content="115200" HorizontalAlignment="Left" Margin="115,70,0,0" VerticalAlignment="Top" Width="51" Height="26"/>
         <TextBox x:Name="Send_text" HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" Width="191" Margin="43,278,0,0"/>
         <Button Content="Send" HorizontalAlignment="Left" VerticalAlignment="Top" Width="45" Margin="243,278,0,0" Click="Button_Click_Send" Height="20"/>
-        <TextBox  x:Name="fsr3_box" Height="24" Margin="37,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
-        <TextBox  x:Name="fsr1_box" Height="24" Margin="147,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
-        <TextBox  x:Name="fsr4_box" Height="24" Margin="37,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
-        <TextBox  x:Name="fsr2_box" Height="24" Margin="147,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
-        <TextBox  x:Name="fsr5_box" Height="24" Margin="55,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
-        <TextBox  x:Name="fsr6_box" Height="24" Margin="205,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
-        <TextBox  x:Name="fsr8_box" Height="24" Margin="315,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
-        <TextBox  x:Name="fsr7_box" Height="24" Margin="205,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
-        <TextBox  x:Name="fsr9_box" Height="24" Margin="315,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
-        <TextBox  x:Name="fsr10_box" Height="24" Margin="297,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
-        <Label Content="UWB1" HorizontalAlignment="Left" Margin="19,318,0,0" VerticalAlignment="Top" Width="82" Height="26" Grid.Column="1"/>
-        <TextBox  x:Name="UWB_1" HorizontalAlignment="Left" Height="22" Margin="74,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62" IsReadOnly="True" Grid.Column="1"/>
-        <Label Content="UWB2" HorizontalAlignment="Left" Margin="143,318,0,0" VerticalAlignment="Top" Width="82" Height="26" Grid.Column="1"/>
-        <TextBox  x:Name="UWB_2" HorizontalAlignment="Left" Height="22" Margin="199,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62" IsReadOnly="True" Grid.Column="1"/>
+        <TextBox  x:Name="fsr3_box" Height="24" Margin="304,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
+        <TextBox  x:Name="fsr1_box" Height="24" Margin="199,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
+        <TextBox  x:Name="fsr4_box" Height="24" Margin="304,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
+        <TextBox  x:Name="fsr2_box" Height="24" Margin="199,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
+        <TextBox  x:Name="fsr5_box" Height="24" Margin="274,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
+        <TextBox  x:Name="fsr6_box" Height="24" Margin="145,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
+        <TextBox  x:Name="fsr8_box" Height="24" Margin="56,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
+        <TextBox  x:Name="fsr7_box" Height="24" Margin="145,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
+        <TextBox  x:Name="fsr9_box" Height="24" Margin="56,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
+        <TextBox  x:Name="fsr10_box" Height="24" Margin="71,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="38" Grid.Column="1"/>
+        <Label Content="UWB1" HorizontalAlignment="Left" Margin="19,298,0,0" VerticalAlignment="Top" Width="50" Height="26" Grid.Column="1"/>
+        <TextBox  x:Name="UWB_1" HorizontalAlignment="Left" Height="22" Margin="71,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62" IsReadOnly="True" Grid.Column="1"/>
+        <Label Content="UWB2" HorizontalAlignment="Left" Margin="19,322,0,0" VerticalAlignment="Top" Width="42" Height="26" Grid.Column="1"/>
+        <TextBox  x:Name="UWB_2" HorizontalAlignment="Left" Height="22" Margin="71,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62" IsReadOnly="True" Grid.Column="1"/>
+        <Label Content="RPY" HorizontalAlignment="Left" Margin="146,315,0,0" VerticalAlignment="Top" Width="50" Height="26" Grid.Column="1"/>
+        <TextBox  x:Name="IMU_ROLL" HorizontalAlignment="Left" Height="22" Margin="181,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" IsReadOnly="True" Grid.Column="1"/>
+        <TextBox  x:Name="IMU_PITCH" HorizontalAlignment="Left" Height="22" Margin="241,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" IsReadOnly="True" Grid.Column="1"/>
+        <TextBox  x:Name="IMU_YAW" HorizontalAlignment="Left" Height="22" Margin="302,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" IsReadOnly="True" Grid.Column="1"/>
     </Grid>
 </Window>

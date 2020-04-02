@@ -83,7 +83,6 @@ namespace serial_new
         int[] Tempo_IMU = new int[9]; //Acc,Gyro,Mag 
 
 
-        byte[] test = new byte[42];
         byte[] Crc;
 
         float[] posx = new float[10]; //COP 계산 변수
@@ -159,7 +158,7 @@ namespace serial_new
         {
             for(;;)
             {
-                Thread.Sleep(10);
+                Thread.Sleep(50);
                 this.Dispatcher.BeginInvoke(DispatcherPriority.Normal, (ThreadStart)delegate ()
                 {
                     Text_box_in();
@@ -246,7 +245,7 @@ namespace serial_new
             }
         }
 
-        protected void Button_Click(object sender, RoutedEventArgs e)  // save 시작
+        protected void Button_Start(object sender, RoutedEventArgs e)  // save 시작
         {
             try
             {
@@ -255,6 +254,7 @@ namespace serial_new
                 name2 = Regex.Replace(name, @"[\d-]", string.Empty);
                 file = new System.IO.StreamWriter(Save_Path + name + ".txt", append: true); // 저장 경로
                 flag_save = true; //데이터 저장 시작 신호
+                Draw_flag = true;
                 if (arduino.IsOpen) //Analog input 아두이노
                 {
                     arduino.Write("1");
@@ -290,28 +290,34 @@ namespace serial_new
                     {
                         if (RecvDataList[bufferlength-2] == 0xFF && RecvDataList[bufferlength-1] == 0xFE) //FF, FE 확인
                         {
-                            //Crc = crc.ComputeHash(test);
-                            //int calculated_crc = (Rec_Check[50] << 8) + Rec_Check[51];
-                            //if (Crc & 0xFFFF != calculated_crc) continue;
+                            RecvDataList.CopyTo(0, Rec_Check, 0, bufferlength - 1);
+                            byte[] crc_cal = new byte[bufferlength - 8];
+                            Array.Copy(Rec_Check, 2, crc_cal, 0, bufferlength - 4);
+                            Crc = crc.ComputeHash(crc_cal);
+                            if (Crc[Crc.Length-2] != Rec_Check[48] || Crc[Crc.Length - 1] != Rec_Check[49])
+                            {
+                                RecvDataList.RemoveRange(0, bufferlength - 1);
+                                continue;
+                            } // test required!!
+                           
+                        //data parse : 
+                        //0~1 stx
+                        //2~3 tmr
+                        //4~14 right 14 ~ 24 left
+                        //24~ 28 uwb 1 28~32 uwb2
+                        //32 ~ 50 imu
+                        //51~52 crc
+                        //52~53 etx
+                        //  if (flag_save == true) file.Write("*"); // start signal
 
-                            RecvDataList.CopyTo(0,Rec_Check,0, bufferlength-1);
-
-                            //data parse : 
-                            //0~1 stx
-                            //2~3 tmr
-                            //4~14 right 14 ~ 24 left
-                            //24~ 28 uwb 1 28~32 uwb2
-                            //32 ~ 50 imu
-                            //51~52 crc
-                            //52~53 etx
-
-                            for (int i =0; i < 11; i++)
+                        for (int i =0; i < 11; i++)
                             {
                                 int k = 2 * i;
                                 Tempo_FSR[i] = (Rec_Check[2 + k] << 8) + Rec_Check[3 + k]; // TMR + FSR
                                 if (flag_save == true)
                                 {
-                                    file.Write("{0}", Tempo_FSR[i]);
+                                    file.Write("{00}", Tempo_FSR[i]);
+                                    file.Write(",");
                                 }
                             }
                         //uwb hex to short 
@@ -323,6 +329,7 @@ namespace serial_new
                                 if (flag_save == true)
                                 {
                                     file.Write("{0}", Tempo_UWB[i]);
+                                    file.Write(",");
                                 }
                             }
                         //Imu data int 
@@ -334,10 +341,15 @@ namespace serial_new
                                 if (flag_save == true)
                                 {
                                     file.Write("{0}", Tempo_IMU[i]);
+                                if (i == 8)
+                                {
+                                    //file.Write(";");
+                                   file.Write("\n");
                                 }
-                            }   
-
-                            RecvDataList.RemoveRange(0, bufferlength - 1);
+                                else file.Write(",");
+                                }
+                        }
+                        RecvDataList.RemoveRange(0, bufferlength - 1);
                         }
                         else
                         {
@@ -348,7 +360,7 @@ namespace serial_new
                 }
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Button_End(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -371,12 +383,15 @@ namespace serial_new
         {
             try
             {
-                serial.Write(Send_text.Text);
-                Edit_raw.Text = "send messages";
+            
+
+
+                //serial.Write(Send_text.Text);
+                //Edit_raw.Text = "send messages";
             }
             catch (System.InvalidOperationException)
             {
-                System.Windows.Forms.MessageBox.Show("포트를 먼저 설정하세요.");
+              //  System.Windows.Forms.MessageBox.Show("포트를 먼저 설정하세요.");
             }
         }
 
@@ -411,18 +426,20 @@ namespace serial_new
                 Height = 15
             };
 
-            Canvas.SetRight(ellipse, Convert.ToDouble(COP_que.Dequeue()) * 1.7 + (COP_Draw.Width * 0.45));
-            Canvas.SetBottom(ellipse, Convert.ToDouble(COP_que.Dequeue()) * 1.7 + (COP_Draw.Height * 0.5 - 100));
 
-            Canvas.SetRight(ellipse_R, Convert.ToDouble(COP_que.Dequeue()) * 1.7 + (COP_Draw.Width * 0.45));
-            Canvas.SetBottom(ellipse_R, Convert.ToDouble(COP_que.Dequeue()) * 1.7 + (COP_Draw.Height * 0.5 - 100));
+            Canvas.SetRight(ellipse, Convert.ToDouble(COP_que.Dequeue()) * 1.7  + (COP_Draw.Width * 0.5));
+            Canvas.SetBottom(ellipse, Convert.ToDouble(COP_que.Dequeue()) * 1.7 + (COP_Draw.Height * 0.5) - 130);
 
-            Canvas.SetRight(ellipse_L, Convert.ToDouble(COP_que.Dequeue()) * 1.7 + (COP_Draw.Width * 0.45));
-            Canvas.SetBottom(ellipse_L, Convert.ToDouble(COP_que.Dequeue()) * 1.7 + (COP_Draw.Height * 0.5 - 100));
+            Canvas.SetRight(ellipse_R, Convert.ToDouble(COP_que.Dequeue()) * 1.7 + (COP_Draw.Width * 0.5));
+            Canvas.SetBottom(ellipse_R, Convert.ToDouble(COP_que.Dequeue()) * 1.7 + (COP_Draw.Height * 0.5) - 130);
+
+            Canvas.SetRight(ellipse_L, Convert.ToDouble(COP_que.Dequeue()) * 1.7 + (COP_Draw.Width * 0.5));
+            Canvas.SetBottom(ellipse_L, Convert.ToDouble(COP_que.Dequeue()) * 1.7 + (COP_Draw.Height * 0.5) - 130);
 
             COP_Draw.Children.Add(ellipse_L);
             COP_Draw.Children.Add(ellipse_R);
             COP_Draw.Children.Add(ellipse);
+            
         }
 
         public void COP_Cal()
@@ -433,14 +450,17 @@ namespace serial_new
                 //COP Total
                 int cop_r = Tempo_FSR[1] + Tempo_FSR[2] + Tempo_FSR[3] + Tempo_FSR[4] + Tempo_FSR[5];
                 int cop_l = Tempo_FSR[6] + Tempo_FSR[7] + Tempo_FSR[8] + Tempo_FSR[9] + Tempo_FSR[10];
-                float cop_pos_r = ((Tempo_FSR[1] * posx[0] + Tempo_FSR[2] * posx[1] + Tempo_FSR[3] * posx[2] + Tempo_FSR[4] * posx[3] + Tempo_FSR[5] * posx[4]));
-                float cop_pos_l = ((Tempo_FSR[6] * posx[5] + Tempo_FSR[7] * posx[6] + Tempo_FSR[8] * posx[7] + Tempo_FSR[9] * posx[8] + Tempo_FSR[10] * posx[9]));
+                float cop_pos_r_x = ((Tempo_FSR[1] * posx[0] + Tempo_FSR[4] * posx[1] + Tempo_FSR[3] * posx[2] + Tempo_FSR[2] * posx[3] + Tempo_FSR[5] * posx[4]));
+                float cop_pos_l_x = ((Tempo_FSR[6] * posx[5] + Tempo_FSR[9] * posx[6] + Tempo_FSR[8] * posx[7] + Tempo_FSR[7] * posx[8] + Tempo_FSR[10] * posx[9]));
+                float cop_pos_r_y = ((Tempo_FSR[1] * posy[0] + Tempo_FSR[4] * posy[1] + Tempo_FSR[3] * posy[2] + Tempo_FSR[2] * posy[3] + Tempo_FSR[5] * posy[4]));
+                float cop_pos_l_y = ((Tempo_FSR[6] * posy[5] + Tempo_FSR[9] * posy[6] + Tempo_FSR[8] * posy[7] + Tempo_FSR[7] * posy[8] + Tempo_FSR[10] * posy[9]));
+
 
 
                 if (cop_r + cop_l > 30)
                 {
-                    COP_que.Enqueue(Math.Round(((cop_pos_r + cop_pos_l) * 50 / (cop_r + cop_l) * (162.35f + 0.25f * w)), 1));
-                    COP_que.Enqueue(Math.Round(((cop_pos_r + cop_pos_l) * 100 / (cop_r + cop_l) * (0.7f * l)), 1));
+                    COP_que.Enqueue(Math.Round(((cop_pos_r_x + cop_pos_l_x) * 50 / ((cop_r + cop_l) * (162.35f + 0.25f * w))), 1));
+                    COP_que.Enqueue(Math.Round(((cop_pos_r_y + cop_pos_l_y) * 100 / ((cop_r + cop_l) * (0.7f * l))), 1));
                 }
                 else
                 {
@@ -451,8 +471,8 @@ namespace serial_new
                 //COP Right
                 if (cop_r > 30)
                 {
-                    COP_que.Enqueue(Math.Round(((cop_pos_r) * 50 / (cop_r) * (162.35f + 0.25f * w)), 1));
-                    COP_que.Enqueue(Math.Round(((cop_pos_r) * 100 / (cop_r) * (0.7f * l)), 1));
+                    COP_que.Enqueue(Math.Round(((cop_pos_r_x) * 50 / ((cop_r) * (162.35f + 0.25f * w))), 1));
+                    COP_que.Enqueue(Math.Round(((cop_pos_r_y) * 100 / ((cop_r) * (0.7f * l))), 1));
                 }
                 else
                 {
@@ -463,8 +483,8 @@ namespace serial_new
                 //COP Left
                 if (cop_l > 30)
                 {
-                    COP_que.Enqueue(Math.Round(((cop_pos_l) * 50 / (cop_r) * (162.35f + 0.25f * w)), 1));
-                    COP_que.Enqueue(Math.Round(((cop_pos_l) * 100 / (cop_r) * (0.7f * l)), 1));
+                    COP_que.Enqueue(Math.Round(((cop_pos_l_x) * 50 / ((cop_l) * (162.35f + 0.25f * w))), 1));
+                    COP_que.Enqueue(Math.Round(((cop_pos_l_y) * 100 / ((cop_l) * (0.7f * l))), 1));
                 }
                 else
                 {
@@ -478,30 +498,58 @@ namespace serial_new
         public void Text_box_in()//object sender, System.EventArgs e
         {
             int[] Tempo_FSR2 = new int[11];
-            Buffer.BlockCopy(Tempo_FSR, 0, Tempo_FSR2, 0, 11);
+            int[] Tempo_IMU2 = new int[9];
+            short[] Tempo_UWB2 = new short[4];
 
-            Time.Text = Tempo_FSR[0].ToString();
+            Buffer.BlockCopy(Tempo_FSR, 0, Tempo_FSR2, 0, 11*4);
+            Buffer.BlockCopy(Tempo_IMU, 0, Tempo_IMU2, 0, 9 * 4);
+            Buffer.BlockCopy(Tempo_UWB, 0, Tempo_UWB2, 0, 4 * 2);
+
+            Time.Text = Tempo_FSR2[0].ToString();
             //right txt box
-            fsr6_box.Text = Tempo_FSR2[1].ToString();
-            fsr7_box.Text = Tempo_FSR2[4].ToString();
-            fsr8_box.Text = Tempo_FSR2[3].ToString();
-            fsr9_box.Text = Tempo_FSR2[2].ToString();
-            fsr10_box.Text = Tempo_FSR2[5].ToString();
+            fsr1_box.Text = Tempo_FSR2[1].ToString();
+            fsr2_box.Text = Tempo_FSR2[4].ToString();
+            fsr3_box.Text = Tempo_FSR2[3].ToString();
+            fsr4_box.Text = Tempo_FSR2[2].ToString();
+            fsr5_box.Text = Tempo_FSR2[5].ToString();
             
             //left txt box
-            fsr1_box.Text = Tempo_FSR2[6].ToString();
-            fsr2_box.Text = Tempo_FSR2[9].ToString();
-            fsr3_box.Text = Tempo_FSR2[8].ToString();
-            fsr4_box.Text = Tempo_FSR2[7].ToString();
-            fsr5_box.Text = Tempo_FSR2[10].ToString();
+            fsr6_box.Text = Tempo_FSR2[6].ToString();
+            fsr7_box.Text = Tempo_FSR2[9].ToString();
+            fsr8_box.Text = Tempo_FSR2[8].ToString();
+            fsr9_box.Text = Tempo_FSR2[7].ToString();
+            fsr10_box.Text = Tempo_FSR2[10].ToString();
+
+            IMU_ROLL.Text = Tempo_IMU2[0].ToString() + ',' + Tempo_IMU2[1].ToString() + ',' + Tempo_IMU2[2].ToString(); // imu calcuation 
+            IMU_PITCH.Text = Tempo_IMU2[3].ToString() + ',' + Tempo_IMU2[4].ToString() + ',' + Tempo_IMU2[5].ToString();
+            IMU_YAW.Text = Tempo_IMU2[6].ToString() + ',' + Tempo_IMU2[7].ToString() + ',' + Tempo_IMU2[8].ToString();
+            UWB_1.Text = Tempo_UWB2[0].ToString()+ ',' + Tempo_UWB2[1].ToString();
+            UWB_2.Text = Tempo_UWB2[2].ToString() + ',' + Tempo_UWB2[3].ToString();
+
         }
 
         private void Window_Closed(object sender, EventArgs e)
         {
-            Box_In_Event.Stop();
-            COP_Draw_Event.Stop();
+            //Box_In_Event.Stop();
+           // COP_Draw_Event.Stop();
         }
 
     }
 }
 
+
+
+/* reference data set*/
+/*  
+                byte[] test = new byte[4];
+                test[0] = 0x00;
+                test[1] = 0x01;
+                test[2] = 0x02;
+                test[3] = 0x03;
+                Crc = crc.ComputeHash(test);
+                //c92a
+                int length = Crc.Length;
+                Edit_raw.AppendText(Convert.ToString(Crc[length - 2], 16));
+                Edit_raw.AppendText(Convert.ToString(Crc[length - 1], 16));
+       */
+//log
