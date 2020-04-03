@@ -290,15 +290,15 @@ namespace serial_new
                     {
                         if (RecvDataList[bufferlength-2] == 0xFF && RecvDataList[bufferlength-1] == 0xFE) //FF, FE 확인
                         {
-                            RecvDataList.CopyTo(0, Rec_Check, 0, bufferlength - 1);
-                            byte[] crc_cal = new byte[bufferlength - 8];
-                            Array.Copy(Rec_Check, 2, crc_cal, 0, bufferlength - 4);
-                            Crc = crc.ComputeHash(crc_cal);
-                            if (Crc[Crc.Length-2] != Rec_Check[48] || Crc[Crc.Length - 1] != Rec_Check[49])
-                            {
-                                RecvDataList.RemoveRange(0, bufferlength - 1);
-                                continue;
-                            } // test required!!
+                            RecvDataList.CopyTo(0, Rec_Check, 0, bufferlength);
+                            //byte[] crc_cal = new byte[bufferlength - 6];
+                            //Array.Copy(Rec_Check, 2, crc_cal, 0, bufferlength - 6);
+                            //Crc = crc.ComputeHash(crc_cal);
+                            //if (Crc[Crc.Length-2] != Rec_Check[50] || Crc[Crc.Length - 1] != Rec_Check[51])
+                            //{
+                            //    RecvDataList.RemoveRange(0, bufferlength - 1);
+                            //    continue;
+                            //} // test required!!
                            
                         //data parse : 
                         //0~1 stx
