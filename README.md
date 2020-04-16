@@ -31,12 +31,3 @@ Installation
 
 Contents
 --------
-
- * [Project structure](../../wiki/Project-structure)
- * [Features and design intentions](../../wiki/Features)
- * [Testbed and Adapter board](../../wiki/Testbed-and-Adapter-board)
- * [Projects, Media, Links](../../wiki/Projects)
- * [Benchmarks](../../wiki/Benchmarks)
- * API docs
-   * [HTML](https://cdn.rawgit.com/thotro/arduino-dw1000/master/extras/doc/html/index.html)
-   * [PDF](https://cdn.rawgit.com/thotro/arduino-dw1000/master/extras/doc/DW1000_Arduino_API_doc.pdf)
