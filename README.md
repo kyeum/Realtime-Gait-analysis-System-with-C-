@@ -16,15 +16,18 @@ Project state
 
 This library is currently (2020) **actively maintained** by *emmet(kwangwoo) yeum*.
 
-
 Anyway you can create pull requests if you found a bug or developed a new feature. They maybe help others.
 
 **TODOLists:**
+
 -- add crc using MPEG-4 32bit process
+
 **General notice:**
 
 Installation
 ------------
+
+-- no
 
 Contents
 --------
