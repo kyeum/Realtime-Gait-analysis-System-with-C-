@@ -5,7 +5,7 @@ This project gives a decent route for whom need to use C# as realtime process si
 ![Required know-how](https://img.shields.io/badge/Required%20know--how-professional-red.svg)
 ![Additional hardware required](https://img.shields.io/badge/Additional%20hardware-required-orange.svg)
 ![c++11](https://img.shields.io/badge/C%2B%2B-11-brightgreen.svg)
-![c#](https://img.shields.io/badge/C%2B%2B-11-brightgreen.svg)
+![c#](https://img.shields.io/badge/c-%23-brightgreen.svg)
 
 This project designed architecture and clear communication system in lab's, which would be beneficial for other serial communication system.
 
