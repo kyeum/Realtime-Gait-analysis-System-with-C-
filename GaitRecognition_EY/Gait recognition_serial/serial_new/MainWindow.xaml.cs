@@ -152,8 +152,6 @@ namespace serial_new
             posy[8] = 0.35f * l;
             posy[9] = 0f;
         }
-
-
         private void Update_ui()
         {
             for(;;)
@@ -253,12 +251,12 @@ namespace serial_new
                 file_num = Convert.ToInt16(Regex.Replace(name, @"\D", ""));
                 name2 = Regex.Replace(name, @"[\d-]", string.Empty);
                 file = new System.IO.StreamWriter(Save_Path + name + ".txt", append: true); // 저장 경로
-                flag_save = true; //데이터 저장 시작 신호
+                flag_save = true; //데이터 저장 시작 신호 -> get data from arduino
                 Draw_flag = true;
                 if (arduino.IsOpen) //Analog input 아두이노
                 {
-                    arduino.Write("1");
-                }         
+                    arduino.Write("255;");
+                }
 
             }
             catch (System.UnauthorizedAccessException)
@@ -291,14 +289,14 @@ namespace serial_new
                         if (RecvDataList[bufferlength-2] == 0xFF && RecvDataList[bufferlength-1] == 0xFE) //FF, FE 확인
                         {
                             RecvDataList.CopyTo(0, Rec_Check, 0, bufferlength);
-                            //byte[] crc_cal = new byte[bufferlength - 6];
-                            //Array.Copy(Rec_Check, 2, crc_cal, 0, bufferlength - 6);
-                            //Crc = crc.ComputeHash(crc_cal);
-                            //if (Crc[Crc.Length-2] != Rec_Check[50] || Crc[Crc.Length - 1] != Rec_Check[51])
-                            //{
-                            //    RecvDataList.RemoveRange(0, bufferlength - 1);
-                            //    continue;
-                            //} // test required!!
+                            byte[] crc_cal = new byte[bufferlength - 6];
+                            Array.Copy(Rec_Check, 2, crc_cal, 0, bufferlength - 6);
+                            Crc = crc.ComputeHash(crc_cal);
+                            if (Crc[Crc.Length-2] != Rec_Check[50] || Crc[Crc.Length - 1] != Rec_Check[51])
+                            {
+                                RecvDataList.RemoveRange(0, bufferlength - 1);
+                                continue;
+                            }
                            
                         //data parse : 
                         //0~1 stx
@@ -316,7 +314,7 @@ namespace serial_new
                                 Tempo_FSR[i] = (Rec_Check[2 + k] << 8) + Rec_Check[3 + k]; // TMR + FSR
                                 if (flag_save == true)
                                 {
-                                    file.Write("{00}", Tempo_FSR[i]);
+                                    file.Write("{0}", Tempo_FSR[i]);
                                     file.Write(",");
                                 }
                             }
@@ -365,10 +363,12 @@ namespace serial_new
             try
             {
                 file.Close();
-                if (arduino.IsOpen)
+                
+                 if (arduino.IsOpen)
                 {
-                    arduino.Write("2");
+                    arduino.Write("254;");
                 }
+                
                 flag_save = false;
                 COP_Draw.Children.Clear();
                 txtname.Text = name2 + Convert.ToString(file_num + 1);
@@ -383,9 +383,6 @@ namespace serial_new
         {
             try
             {
-            
-
-
                 //serial.Write(Send_text.Text);
                 //Edit_raw.Text = "send messages";
             }
