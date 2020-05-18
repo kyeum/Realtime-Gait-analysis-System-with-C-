@@ -12,6 +12,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 using CRC;
+//using UnityEngine;
+//using System.Collections;
+
 
 
 namespace serial_new
@@ -257,6 +260,12 @@ namespace serial_new
                 {
                     arduino.Write("255;");
                 }
+                if (serial.IsOpen)
+                {
+                    string str = "*s";
+                    str += name + ";";
+                    serial.Write(str);
+                }
 
             }
             catch (System.UnauthorizedAccessException)
@@ -368,7 +377,13 @@ namespace serial_new
                 {
                     arduino.Write("254;");
                 }
-                
+                if (serial.IsOpen)
+                {
+                    string str = "*e";
+                    str += name + ";";
+                    serial.Write(str);
+                }
+
                 flag_save = false;
                 COP_Draw.Children.Clear();
                 txtname.Text = name2 + Convert.ToString(file_num + 1);
@@ -533,20 +548,3 @@ namespace serial_new
 
     }
 }
-
-
-
-/* reference data set*/
-/*  
-                byte[] test = new byte[4];
-                test[0] = 0x00;
-                test[1] = 0x01;
-                test[2] = 0x02;
-                test[3] = 0x03;
-                Crc = crc.ComputeHash(test);
-                //c92a
-                int length = Crc.Length;
-                Edit_raw.AppendText(Convert.ToString(Crc[length - 2], 16));
-                Edit_raw.AppendText(Convert.ToString(Crc[length - 1], 16));
-       */
-//log
