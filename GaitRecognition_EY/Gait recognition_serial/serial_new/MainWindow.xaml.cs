@@ -12,10 +12,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 using CRC;
+
+
 //using UnityEngine;
 //using System.Collections;
-
-
 
 namespace serial_new
 {
@@ -25,11 +25,15 @@ namespace serial_new
     public partial class MainWindow : Window
     {
         SerialPort serial = new SerialPort(); //Main Serial
+        SerialPort serial_UWB = new SerialPort(); //Main Serial
         SerialPort arduino = new SerialPort(); //data from arduino serial
          //Receive & Send data buffer
          //buffer initialize 
-        const int bufferlength = 54;
+        const int bufferlength = 58;
+        const int bufferlength_uwbonly = 10;
+
         const int datalength = bufferlength - 6; // STX, ETX, CRC
+        const int datalength_uwbonly = bufferlength_uwbonly - 4; // STX, ETX
 
         private List<Byte> _SendDataList, _RecvDataList;
         private List<Byte> SendDataList
@@ -42,6 +46,15 @@ namespace serial_new
             }
         }
         private List<Byte> RecvDataList
+        {
+            get
+            {
+                if (_RecvDataList == null)
+                    _RecvDataList = new List<byte>();
+                return _RecvDataList;
+            }
+        }
+        private List<Byte> RecvDataList_UWB
         {
             get
             {
@@ -82,12 +95,11 @@ namespace serial_new
         // data set up 
         byte[] Rec_Check = new byte[bufferlength];
         int[] Tempo_FSR = new int[11];
-        short[] Tempo_UWB = new short[4];// data -> hex to signed short -> float save : 
+        short[] Tempo_UWB = new short[6];// data -> hex to signed short -> float save : 
         int[] Tempo_IMU = new int[9]; //Acc,Gyro,Mag 
-
-
+        short[] Tempo_UWB_Only = new short[6];// data -> hex to signed short -> float save : 
+        byte[] Rec_Check_uwbonly = new byte[bufferlength_uwbonly];
         byte[] Crc;
-
         float[] posx = new float[10]; //COP 계산 변수
         float[] posy = new float[10];
         byte[] pos1y = new byte[10];
@@ -106,6 +118,11 @@ namespace serial_new
         System.Windows.Threading.DispatcherTimer Box_In_Event = new System.Windows.Threading.DispatcherTimer();
         System.Windows.Threading.DispatcherTimer COP_Draw_Event = new System.Windows.Threading.DispatcherTimer();
         private Crc crc;
+        bool UWB_mode = false;
+        double x,y,z = 0;
+        UInt64 timer_100ms = 0;
+        private System.Windows.Forms.Timer timer;
+        Queue<TimerTask> timerTaskQueue = new Queue<TimerTask>();
 
         #region Initial
         public MainWindow()
@@ -113,20 +130,33 @@ namespace serial_new
             InitializeComponent();
             Loaded += new RoutedEventHandler(InitSerialPort);  //Serial 받기
 
-            Thread thread = new Thread(process2);
+            Thread thread = new Thread(processMain);
             thread.Start();
+
+            //Thread thread_uwb = new Thread(process_UWB);
+            //thread_uwb.Start();
+
+            //Thread thread_uwb2 = new Thread(process_UWB_2);
+            //thread_uwb2.Start();
 
             Thread thread_ui = new Thread(Update_ui);
             thread_ui.Start();
-              
-             //Box_In_Event.Interval = new TimeSpan(0, 0, 0, 0, 100);
-             //Box_In_Event.Tick += new EventHandler(Text_box_in);
-             //Box_In_Event.Start();
+
+ 
+
+            timer = new System.Windows.Forms.Timer();
+            timer.Tick += timer_Tick;
+            timer.Interval = 100;
+            timer.Start();
+
+            //Box_In_Event.Interval = new TimeSpan(0, 0, 0, 0, 100);
+            //Box_In_Event.Tick += new EventHandler(Text_box_in);
+            //Box_In_Event.Start();
 
             //   COP_Draw_Event.Interval = new TimeSpan(0, 0, 0, 0, 30);
             //   COP_Draw_Event.Tick += new EventHandler(COP_Cal);
             //   COP_Draw_Event.Start();
-            
+
             crc = new CRC.Crc(CRC.CrcStdParams.StandartParameters[CRC.CrcAlgorithms.Crc32Mpeg2]);
             //COP 계산 변수
 
@@ -155,6 +185,40 @@ namespace serial_new
             posy[8] = 0.35f * l;
             posy[9] = 0f;
         }
+        void timer_Tick(object sender, EventArgs e)
+        {
+            timer_100ms++;
+            if (timerTaskQueue.Count == 0)
+            {
+                timer.Stop();
+                return;
+            }
+
+            TimerTask task = timerTaskQueue.Dequeue();
+
+            Thread.Sleep(task.WaitTime_msec);
+            //timer.Tick
+            //Textbox_Timer.Text = timer_100ms.ToString();
+
+        }
+        public class TimerTask
+        {
+            private int waitTime_msec;
+
+            public int WaitTime_msec
+            {
+                get { return waitTime_msec; }
+                set { waitTime_msec = value; }
+            }
+
+            private string message;
+
+            public string Message
+            {
+                get { return message; }
+                set { message = value; }
+            }
+        }
         private void Update_ui()
         {
             for(;;)
@@ -171,10 +235,12 @@ namespace serial_new
         void InitSerialPort(object sender, EventArgs e)
         {
             serial.DataReceived += new SerialDataReceivedEventHandler(serial_DataReceived);
+            serial_UWB.DataReceived += new SerialDataReceivedEventHandler(serial_DataReceived_UWB);
             string[] ports = SerialPort.GetPortNames();
             foreach (string port in ports)
             {
                 Comport_num.Items.Add(port);
+                Comport_num_UWB.Items.Add(port);
                 Comport_num_Ain.Items.Add(port);
             }          
         }
@@ -198,6 +264,16 @@ namespace serial_new
 
             arduino.PortName = Comport_num_Ain.SelectedItem.ToString();
             OpenComPort_Ain(sender, e);
+        }
+        private void Comport_num_SelectionChanged_UWB(object sender, SelectionChangedEventArgs e)
+        {
+            if (serial_UWB.IsOpen)
+            {
+                serial_UWB.Close();
+            }
+
+            serial_UWB.PortName = Comport_num_UWB.SelectedItem.ToString();
+            OpenComPort_UWB(sender, e);
         }
 
         void OpenComPort(object sender, RoutedEventArgs e)
@@ -224,10 +300,26 @@ namespace serial_new
                 Comport_num.SelectedItem = "";
             }   
         }
+        void OpenComPort_UWB(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                serial_UWB.Open();
+            }
+            catch (Exception ex)
+            {
+                Comport_num_UWB.SelectedItem = "";
+            }
+        }
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             string[] names = cbComSpeed.SelectedItem.ToString().Split(':');
             serial.BaudRate = int.Parse(names[1].ToString().Trim());
+        }
+        private void ComboBox_SelectionChanged_UWB(object sender, SelectionChangedEventArgs e)
+        {
+            string[] names = cbComSpeed_UWB.SelectedItem.ToString().Split(':');
+            serial_UWB.BaudRate = int.Parse(names[1].ToString().Trim());
         }
         #endregion
 
@@ -241,6 +333,20 @@ namespace serial_new
                 {
                     for (int i = 0; i < serial.BytesToRead; i++)
                         RecvDataList.Add((Byte)serial.ReadByte());
+                }
+                catch { }
+            }
+        }
+        void serial_DataReceived_UWB(object sender, SerialDataReceivedEventArgs e) //Serial 받는 부분
+        {
+
+            int intRecSize = serial_UWB.BytesToRead;
+            if (intRecSize != 0)
+            {
+                try
+                {
+                    for (int i = 0; i < serial_UWB.BytesToRead; i++)
+                        RecvDataList_UWB.Add((Byte)serial_UWB.ReadByte());
                 }
                 catch { }
             }
@@ -282,11 +388,11 @@ namespace serial_new
             }
         }
 
-        public void process2()
+        public void processMain()
         {
                 for (;;)
                 {
-                    if (RecvDataList.Count < 55) continue;
+                    if (RecvDataList.Count < 58) continue;
 
                     if (!(RecvDataList[0] == 0xFF && RecvDataList[1] == 0xFF)) //FF, FF 확인
                     {
@@ -301,7 +407,7 @@ namespace serial_new
                             byte[] crc_cal = new byte[bufferlength - 6];
                             Array.Copy(Rec_Check, 2, crc_cal, 0, bufferlength - 6);
                             Crc = crc.ComputeHash(crc_cal);
-                            if (Crc[Crc.Length-2] != Rec_Check[50] || Crc[Crc.Length - 1] != Rec_Check[51])
+                            if (Crc[Crc.Length-2] != Rec_Check[54] || Crc[Crc.Length - 1] != Rec_Check[55]) 
                             {
                                 RecvDataList.RemoveRange(0, bufferlength - 1);
                                 continue;
@@ -312,11 +418,11 @@ namespace serial_new
                         //2~3 tmr
                         //4~14 right 14 ~ 24 left
                         //24~ 28 uwb 1 28~32 uwb2
+                        //change to 24 25 26 27
                         //32 ~ 50 imu
-                        //51~52 crc
-                        //52~53 etx
-                        //  if (flag_save == true) file.Write("*"); // start signal
-
+                        //55~56 crc
+                        //56~57 etx
+                        
                         for (int i =0; i < 11; i++)
                             {
                                 int k = 2 * i;
@@ -329,10 +435,10 @@ namespace serial_new
                             }
                         //uwb hex to short 
                         // uwb 1 : range , power  + uwb 2 : range , power
-                            for (int i = 0; i < 4; i++)
+                            for (int i = 0; i < 6; i++)
                             {
                                 int k = 2 * i;
-                                Tempo_UWB[i] = (short)((Rec_Check[24 + k] << 8) + Rec_Check[25 + k]); // TMR + FSR
+                                Tempo_UWB[i] = (short)((Rec_Check[24 + k] << 8) + Rec_Check[25 + k]); // UWB
                                 if (flag_save == true)
                                 {
                                     file.Write("{0}", Tempo_UWB[i]);
@@ -344,7 +450,7 @@ namespace serial_new
                             for (int i = 0; i < 9; i++)
                             {
                                 int k = 2 * i;
-                                Tempo_IMU[i] = (Rec_Check[32 + k] << 8) + Rec_Check[33 + k]; // TMR + FSR
+                                Tempo_IMU[i] = (Rec_Check[36 + k] << 8) + Rec_Check[37 + k]; // IMU
                                 if (flag_save == true)
                                 {
                                     file.Write("{0}", Tempo_IMU[i]);
@@ -365,6 +471,104 @@ namespace serial_new
                         }
                     }
                 }
+        }
+        public void process_UWB()
+        {
+            for (;;)
+            {
+                if (RecvDataList.Count < bufferlength_uwbonly + 1) continue;
+
+                if (!(RecvDataList[0] == 0xFF && RecvDataList[1] == 0xFF)) //FF, FF 확인
+                {
+                    RecvDataList.RemoveRange(0, 1); //FF, FF전 데이터삭제
+                    continue;
+                }
+                else if (RecvDataList[0] == 0xFF && RecvDataList[1] == 0xFF)
+                {
+                    if (RecvDataList[bufferlength_uwbonly - 2] == 0xFF && RecvDataList[bufferlength_uwbonly - 1] == 0xFE) //FF, FE 확인
+                    {
+                        RecvDataList.CopyTo(0, Rec_Check_uwbonly, 0, bufferlength_uwbonly);
+                      
+
+                       
+                        //uwb hex to short 
+                        // uwb 1 : range , power  + uwb 2 : range , power
+                        for (int i = 0; i < 3; i++)
+                        {
+                            int k = 2 * i;
+                            Tempo_UWB_Only[i] = (short)((Rec_Check_uwbonly[2 + k] << 8) + Rec_Check_uwbonly[3 + k]); // TMR + FSR
+                            if (flag_save == true)
+                            {
+                                file.Write("{0}", Tempo_UWB_Only[i]);
+                                if (i == 2)
+                                {
+                                    //file.Write(";");
+                                    file.Write("\n");
+                                }
+                                else
+                                {
+                                    file.Write(",");
+                                }
+                            }
+                        }
+                        RecvDataList.RemoveRange(0, bufferlength_uwbonly - 1);
+                    }
+                    else
+                    {
+                        RecvDataList.RemoveRange(0, bufferlength_uwbonly - 1); // 데이터 모두삭제
+                        continue;
+                    }
+                }
+            }
+        }
+        public void process_UWB_2()
+        {
+            for (; ; )
+            {
+                if (RecvDataList_UWB.Count < bufferlength_uwbonly + 1) continue;
+
+                if (!(RecvDataList_UWB[0] == 0xFF && RecvDataList_UWB[1] == 0xFF)) //FF, FF 확인
+                {
+                    RecvDataList_UWB.RemoveRange(0, 1); //FF, FF전 데이터삭제
+                    continue;
+                }
+                else if (RecvDataList_UWB[0] == 0xFF && RecvDataList_UWB[1] == 0xFF)
+                {
+                    if (RecvDataList_UWB[bufferlength_uwbonly - 2] == 0xFF && RecvDataList_UWB[bufferlength_uwbonly - 1] == 0xFE) //FF, FE 확인
+                    {
+                        RecvDataList_UWB.CopyTo(0, Rec_Check_uwbonly, 0, bufferlength_uwbonly);
+
+
+
+                        //uwb hex to short 
+                        // uwb 1 : range , power  + uwb 2 : range , power
+                        for (int i = 0; i < 3; i++)
+                        {
+                            int k = 2 * i;
+                            Tempo_UWB_Only[i+3] = (short)((Rec_Check_uwbonly[2 + k] << 8) + Rec_Check_uwbonly[3 + k]); // TMR + FSR
+                            if (flag_save == true)
+                            {
+                                file.Write("{0}", Tempo_UWB_Only[i + 3]);
+                                if (i == 2)
+                                {
+                                    //file.Write(";");
+                                    file.Write("\n");
+                                }
+                                else
+                                {
+                                    file.Write(",");
+                                }
+                            }
+                        }
+                        RecvDataList_UWB.RemoveRange(0, bufferlength_uwbonly - 1);
+                    }
+                    else
+                    {
+                        RecvDataList_UWB.RemoveRange(0, bufferlength_uwbonly - 1); // 데이터 모두삭제
+                        continue;
+                    }
+                }
+            }
         }
 
         private void Button_End(object sender, RoutedEventArgs e)
@@ -453,7 +657,23 @@ namespace serial_new
             COP_Draw.Children.Add(ellipse);
             
         }
+        public void Calculate_Coordinates()
+        {
+            int L = 260;
+            int W = 10;
+            double x, y, z = 0;
+            double dist1 = Tempo_UWB_Only[0];
+            double dist2 = Tempo_UWB_Only[1];
+            double dist3 = Tempo_UWB_Only[2];
+            double dist4 = Tempo_UWB_Only[3];
+            double dist5 = Tempo_UWB_Only[4];
+            double dist6 = Tempo_UWB_Only[5];
 
+            x = (Math.Pow(dist1,2) - Math.Pow(dist3,2)) / (2 * L);
+            y = (Math.Pow(dist1, 2) - Math.Pow(dist2, 2) + Math.Pow(W, 2)/4 - L*x - Math.Pow(L, 2)/4) / (-W);
+            z = Math.Sqrt(Math.Pow(dist3, 2) - Math.Pow(x - L / 2, 2) - Math.Pow(y, 2));
+
+        }
         public void COP_Cal()
         {
             COP_Draw.Children.Clear();
@@ -466,8 +686,6 @@ namespace serial_new
                 float cop_pos_l_x = ((Tempo_FSR[6] * posx[5] + Tempo_FSR[9] * posx[6] + Tempo_FSR[8] * posx[7] + Tempo_FSR[7] * posx[8] + Tempo_FSR[10] * posx[9]));
                 float cop_pos_r_y = ((Tempo_FSR[1] * posy[0] + Tempo_FSR[4] * posy[1] + Tempo_FSR[3] * posy[2] + Tempo_FSR[2] * posy[3] + Tempo_FSR[5] * posy[4]));
                 float cop_pos_l_y = ((Tempo_FSR[6] * posy[5] + Tempo_FSR[9] * posy[6] + Tempo_FSR[8] * posy[7] + Tempo_FSR[7] * posy[8] + Tempo_FSR[10] * posy[9]));
-
-
 
                 if (cop_r + cop_l > 30)
                 {
@@ -506,16 +724,15 @@ namespace serial_new
                 COP_D(COP_que);
             }
         }
-
         public void Text_box_in()//object sender, System.EventArgs e
         {
             int[] Tempo_FSR2 = new int[11];
             int[] Tempo_IMU2 = new int[9];
-            short[] Tempo_UWB2 = new short[4];
+            short[] Tempo_UWB2 = new short[6];
 
-            Buffer.BlockCopy(Tempo_FSR, 0, Tempo_FSR2, 0, 11*4);
+            Buffer.BlockCopy(Tempo_FSR, 0, Tempo_FSR2, 0, 11 * 4);
             Buffer.BlockCopy(Tempo_IMU, 0, Tempo_IMU2, 0, 9 * 4);
-            Buffer.BlockCopy(Tempo_UWB, 0, Tempo_UWB2, 0, 4 * 2);
+            Buffer.BlockCopy(Tempo_UWB, 0, Tempo_UWB2, 0, 6 * 2);
 
             Time.Text = Tempo_FSR2[0].ToString();
             //right txt box
@@ -535,9 +752,22 @@ namespace serial_new
             IMU_ROLL.Text = Tempo_IMU2[0].ToString() + ',' + Tempo_IMU2[1].ToString() + ',' + Tempo_IMU2[2].ToString(); // imu calcuation 
             IMU_PITCH.Text = Tempo_IMU2[3].ToString() + ',' + Tempo_IMU2[4].ToString() + ',' + Tempo_IMU2[5].ToString();
             IMU_YAW.Text = Tempo_IMU2[6].ToString() + ',' + Tempo_IMU2[7].ToString() + ',' + Tempo_IMU2[8].ToString();
-            UWB_1.Text = Tempo_UWB2[0].ToString()+ ',' + Tempo_UWB2[1].ToString();
-            UWB_2.Text = Tempo_UWB2[2].ToString() + ',' + Tempo_UWB2[3].ToString();
+            Range1.Text = Tempo_UWB2[0].ToString();
+            Range2.Text = Tempo_UWB2[1].ToString();
+            Range3.Text = Tempo_UWB2[2].ToString();
+            Range4.Text = Tempo_UWB2[3].ToString();
+            Range5.Text = Tempo_UWB2[4].ToString();
+            Range6.Text = Tempo_UWB2[5].ToString();
 
+
+            xyz.Text = x.ToString() + ',' + y.ToString() + ',' + z.ToString();
+           
+
+        }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            UWB_mode = true;
         }
 
         private void Window_Closed(object sender, EventArgs e)
@@ -545,6 +775,5 @@ namespace serial_new
             //Box_In_Event.Stop();
            // COP_Draw_Event.Stop();
         }
-
     }
 }
