@@ -1,0 +1,15 @@
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\bin\Debug\serial_new.exe.config
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\bin\Debug\serial_new.exe
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\bin\Debug\serial_new.pdb
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\obj\Debug\MainWindow.g.cs
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\obj\Debug\App.g.cs
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\obj\Debug\MainWindow.baml
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\obj\Debug\serial_new.g.resources
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\obj\Debug\Soft_serial.csproj.GenerateResource.cache
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\obj\Debug\Soft_serial.csproj.CoreCompileInputs.cache
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\obj\Debug\Soft_serial.csproj.CopyComplete
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\obj\Debug\serial_new.exe
+C:\Users\EY\Desktop\workspace\serial\Sensor_serial\Soft_serial\obj\Debug\serial_new.pdb

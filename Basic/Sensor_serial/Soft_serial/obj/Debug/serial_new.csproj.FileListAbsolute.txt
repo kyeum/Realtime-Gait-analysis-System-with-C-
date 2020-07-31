@@ -1,0 +1,404 @@
+C:\Users\Bionics\Desktop\serial_new\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Bionics\Desktop\serial_new\serial_new\bin\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\serial_new\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\serial_new\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Bionics\Desktop\serial_new\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Bionics\Desktop\serial_new\serial_new\obj\Debug\App.g.cs
+C:\Users\Bionics\Desktop\serial_new\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Bionics\Desktop\serial_new\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Bionics\Desktop\serial_new\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Bionics\Desktop\serial_new\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Bionics\Desktop\serial_new\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Bionics\Desktop\serial_new\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Bionics\Desktop\serial_new\serial_new\obj\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\serial_new\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\bin\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\obj\Debug\App.g.cs
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\obj\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\WPFSerial\serial_new\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\bin\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\obj\Debug\App.g.cs
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\obj\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\LJM\시리얼\serial_new\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\serial_new (2)\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\serial_new (2)\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\serial_new (2)\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\bin\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\App.g.cs
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\bin\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\App.g.cs
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\LJM\FSR 값 확인 시리얼통신 fsr\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\bin\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\obj\Debug\App.g.cs
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\obj\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\bin\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\App.g.cs
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr+imu2\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\bin\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.csprojAssemblyReference.cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\App.g.cs
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.csproj.GenerateResource.cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.csproj.CoreCompileInputs.cache
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\FSR값확인\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노33\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR 값 확인 시리얼통신 fsr_아두이노2\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojAssemblyReference.cache
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.cache
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.CoreCompileInputs.cache
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\기러기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\메추라기\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\FSR_Analog\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드_4(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드_5(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드_6(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드_7(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojResolveAssemblyReference.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Choong Hyun Kim\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.Cache
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojAssemblyReference.cache
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.cache
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.CoreCompileInputs.cache
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.CopyComplete
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+C:\Users\Bionics\Desktop\수정코드_8(완성)_Atmel\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojAssemblyReference.cache
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.cache
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.CopyComplete
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+Z:\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe.config
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.exe
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\bin\Debug\serial_new.pdb
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csprojAssemblyReference.cache
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.g.cs
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\App.g.cs
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\MainWindow.baml
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.g.resources
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.GenerateResource.cache
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.csproj.CopyComplete
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.exe
+\\Mac\Home\workspace\RealtimeC-\c# test code 2\FSR 값 확인 시리얼통신 fsr_아두이노2 (1)\serial_new\obj\Debug\serial_new.pdb
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\bin\Debug\serial_new.exe.config
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\bin\Debug\serial_new.exe
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\bin\Debug\serial_new.pdb
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.csprojAssemblyReference.cache
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\MainWindow.g.cs
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\App.g.cs
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\MainWindow.baml
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.g.resources
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.csproj.GenerateResource.cache
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.csproj.CopyComplete
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.exe
+\\Mac\Home\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.pdb
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\bin\Debug\serial_new.exe.config
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\bin\Debug\serial_new.exe
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\bin\Debug\serial_new.pdb
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.csprojAssemblyReference.cache
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\MainWindow.g.cs
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\App.g.cs
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new_MarkupCompile.cache
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new_MarkupCompile.lref
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\MainWindow.baml
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.g.resources
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.Properties.Resources.resources
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.csproj.GenerateResource.cache
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.csproj.CoreCompileInputs.cache
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.csproj.CopyComplete
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.exe
+C:\Users\EY\Desktop\workspace\RealtimeC-\GaitRecognition_EY\Gait recognition_serial\serial_new\obj\Debug\serial_new.pdb

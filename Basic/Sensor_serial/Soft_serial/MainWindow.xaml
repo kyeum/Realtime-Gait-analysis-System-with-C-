@@ -1,0 +1,53 @@
+﻿<Window x:Class="Soft_serial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Soft_serial"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="409.065" Width="749.369" ResizeMode="NoResize" Closed="Window_Closed">
+    <Grid Margin="0,0,-5.8,-0.8" RenderTransformOrigin="0.051,0.489" Height="380" HorizontalAlignment="Left" Width="749" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="543"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="191*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="319" Margin="322,38,0,0" Stroke="Black" VerticalAlignment="Top" Width="394"/>
+        <GroupBox Header="Communication&#xA;" HorizontalAlignment="Left" Height="126" Margin="25,14,0,0" VerticalAlignment="Top" Width="279"/>
+        <GroupBox Header="Controller&#xA;" HorizontalAlignment="Left" Height="212" Margin="25,145,0,0" VerticalAlignment="Top" Width="279">
+            <TextBox x:Name="Edit_raw" HorizontalAlignment="Right" Height="52" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="245" Margin="0,0,12.2,96.8"/>
+        </GroupBox>
+        <Label Content="Soft" HorizontalAlignment="Left" Margin="36,0,0,470.2" VerticalAlignment="Bottom" Width="42" Height="26" RenderTransformOrigin="0.5,0.515"/>
+        <ComboBox x:Name="Comport_num" HorizontalAlignment="Left" Margin="188,49,0,0" VerticalAlignment="Top" Width="62" SelectionChanged="Comport_num_SelectionChanged" Height="22"/>
+        <ComboBox x:Name="Comport_num_Ain" HorizontalAlignment="Left" Margin="188,80,0,0" VerticalAlignment="Top" Width="62" SelectionChanged="Comport_num_SelectionChanged_Ain" Height="22"/>
+        <ComboBox x:Name="cbComSpeed" SelectionChanged="ComboBox_SelectionChanged" Margin="105,49,0,0" IsSynchronizedWithCurrentItem="True"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="22" SelectedIndex="0">
+            <ComboBoxItem Content="115200"/>
+            <ComboBoxItem Content="230400"/>
+        </ComboBox>
+        <Button Content="START" HorizontalAlignment="Left" Margin="150,298,0,0" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.52,0" Click="Button_Start" Height="36"/>
+        <Button Content="END" HorizontalAlignment="Left" Margin="223,298,0,0" VerticalAlignment="Top" Width="62" RenderTransformOrigin="0.52,0" Click="Button_End" Height="36"/>
+        <TextBox x:Name="txtname" HorizontalAlignment="Left" Height="20" Margin="98,0,0,352.2" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="58" RenderTransformOrigin="0.5,0.5" Text="TEST1">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.126"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+
+        <TextBox  x:Name="acc_box" HorizontalAlignment="Left" Height="23" Margin="4.4,14,-12.8,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="14" Visibility="Hidden" Grid.Column="1"/>
+        <TextBox  x:Name="time_box" HorizontalAlignment="Left" Height="23" Margin="4.4,14,-12.8,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="14" Visibility="Hidden" Grid.Column="1"/>
+        <TextBox  x:Name="time1_box" HorizontalAlignment="Left" Height="23" Margin="5.4,14,-13.8,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="14" Visibility="Hidden" Grid.Column="1"/>
+        <Button x:Name="Path" Content="PATH" HorizontalAlignment="Left" Margin="44,298,0,0" VerticalAlignment="Top" Width="72" Click="Path_Click" Height="36"/>
+        <Label Content="Analog&#xA;" HorizontalAlignment="Left" Margin="36,0,0,440.2" VerticalAlignment="Bottom" Width="56" Height="26"/>
+        <TextBox x:Name="Send_text" HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" Margin="41,259,0,0"/>
+        <Button Content="Send" HorizontalAlignment="Left" VerticalAlignment="Top" Width="52" Margin="233,257,0,0" Click="Button_Click_Send" Height="20"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="39.4,14,-153.8,0" TextWrapping="Wrap" Text="3Dview" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Name :" HorizontalAlignment="Left" Margin="44,168,0,0" VerticalAlignment="Top" Width="51" Height="26"/>
+        <Label Content="115200" HorizontalAlignment="Left" Margin="105,78,0,0" VerticalAlignment="Top" Width="51" Height="26"/>
+    </Grid>
+</Window>

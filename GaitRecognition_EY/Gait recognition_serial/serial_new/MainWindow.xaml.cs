@@ -90,7 +90,7 @@ namespace serial_new
         }
 
         Queue COP_que = new Queue(); // COP Draw using QUEUE
-        System.IO.StreamWriter file = null; // Data Save
+        System.IO.StreamWriter file; // Data Save
 
         // data set up 
         byte[] Rec_Check = new byte[bufferlength];
@@ -759,10 +759,7 @@ namespace serial_new
             Range5.Text = Tempo_UWB2[4].ToString();
             Range6.Text = Tempo_UWB2[5].ToString();
 
-
             xyz.Text = x.ToString() + ',' + y.ToString() + ',' + z.ToString();
-           
-
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
