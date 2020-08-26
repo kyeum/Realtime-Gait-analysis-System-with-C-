@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 using CRC;
+using System.Linq.Expressions;
 
 
 //using UnityEngine;
@@ -29,9 +30,8 @@ namespace serial_new
         SerialPort arduino = new SerialPort(); //data from arduino serial
          //Receive & Send data buffer
          //buffer initialize 
-        const int bufferlength = 58;
+        const int bufferlength = 70;
         const int bufferlength_uwbonly = 10;
-
         const int datalength = bufferlength - 6; // STX, ETX, CRC
         const int datalength_uwbonly = bufferlength_uwbonly - 4; // STX, ETX
 
@@ -95,10 +95,9 @@ namespace serial_new
         // data set up 
         byte[] Rec_Check = new byte[bufferlength];
         int[] Tempo_FSR = new int[11];
-        short[] Tempo_UWB = new short[6];// data -> hex to signed short -> float save : 
+        short[] Tempo_UWB = new short[12]; //12byte from uwb 1// range 6byte, power 6byte , 12 byte from uwb 2
+
         int[] Tempo_IMU = new int[9]; //Acc,Gyro,Mag 
-        short[] Tempo_UWB_Only = new short[6];// data -> hex to signed short -> float save : 
-        byte[] Rec_Check_uwbonly = new byte[bufferlength_uwbonly];
         byte[] Crc;
         float[] posx = new float[10]; //COP 계산 변수
         float[] posy = new float[10];
@@ -392,7 +391,7 @@ namespace serial_new
         {
                 for (;;)
                 {
-                    if (RecvDataList.Count < 58) continue;
+                    if (RecvDataList.Count < 70) continue;
 
                     if (!(RecvDataList[0] == 0xFF && RecvDataList[1] == 0xFF)) //FF, FF 확인
                     {
@@ -407,21 +406,14 @@ namespace serial_new
                             byte[] crc_cal = new byte[bufferlength - 6];
                             Array.Copy(Rec_Check, 2, crc_cal, 0, bufferlength - 6);
                             Crc = crc.ComputeHash(crc_cal);
-                            if (Crc[Crc.Length-2] != Rec_Check[54] || Crc[Crc.Length - 1] != Rec_Check[55]) 
+                            if (Crc[Crc.Length-2] != Rec_Check[66] || Crc[Crc.Length - 1] != Rec_Check[67]) 
                             {
                                 RecvDataList.RemoveRange(0, bufferlength - 1);
                                 continue;
                             }
                            
                         //data parse : 
-                        //0~1 stx
-                        //2~3 tmr
-                        //4~14 right 14 ~ 24 left
-                        //24~ 28 uwb 1 28~32 uwb2
-                        //change to 24 25 26 27
-                        //32 ~ 50 imu
-                        //55~56 crc
-                        //56~57 etx
+
                         
                         for (int i =0; i < 11; i++)
                             {
@@ -429,20 +421,28 @@ namespace serial_new
                                 Tempo_FSR[i] = (Rec_Check[2 + k] << 8) + Rec_Check[3 + k]; // TMR + FSR
                                 if (flag_save == true)
                                 {
-                                    file.Write("{0}", Tempo_FSR[i]);
-                                    file.Write(",");
+                                    try
+                                    {
+                                        file.Write("{0}", Tempo_FSR[i]);
+                                        file.Write(",");
+                                    }
+                                    catch{}
                                 }
                             }
                         //uwb hex to short 
                         // uwb 1 : range , power  + uwb 2 : range , power
-                            for (int i = 0; i < 6; i++)
+                            for (int i = 0; i < 12; i++)
                             {
                                 int k = 2 * i;
                                 Tempo_UWB[i] = (short)((Rec_Check[24 + k] << 8) + Rec_Check[25 + k]); // UWB
                                 if (flag_save == true)
                                 {
+                                try
+                                {
                                     file.Write("{0}", Tempo_UWB[i]);
                                     file.Write(",");
+                                }
+                                catch { }
                                 }
                             }
                         //Imu data int 
@@ -450,126 +450,33 @@ namespace serial_new
                             for (int i = 0; i < 9; i++)
                             {
                                 int k = 2 * i;
-                                Tempo_IMU[i] = (Rec_Check[36 + k] << 8) + Rec_Check[37 + k]; // IMU
+                                Tempo_IMU[i] = (Rec_Check[48 + k] << 8) + Rec_Check[49 + k]; // IMU
                                 if (flag_save == true)
                                 {
-                                    file.Write("{0}", Tempo_IMU[i]);
-                                if (i == 8)
+                                try
                                 {
-                                    //file.Write(";");
-                                   file.Write("\n");
+                                    file.Write("{0}", Tempo_IMU[i]);
+                                    if (i == 8)
+                                    {
+                                        //file.Write(";");
+                                        file.Write("\n");
+                                    }
+                                    else file.Write(",");
                                 }
-                                else file.Write(",");
+                                catch { }    
                                 }
-                        }
-                        RecvDataList.RemoveRange(0, bufferlength - 1);
+                            }
+                            RecvDataList.RemoveRange(0, bufferlength - 1);
                         }
                         else
                         {
-                            RecvDataList.RemoveRange(0, bufferlength-1); // 데이터 모두삭제
+                            RecvDataList.RemoveRange(0, bufferlength - 1); // 데이터 모두삭제
                             continue;
                         }
                     }
                 }
         }
-        public void process_UWB()
-        {
-            for (;;)
-            {
-                if (RecvDataList.Count < bufferlength_uwbonly + 1) continue;
-
-                if (!(RecvDataList[0] == 0xFF && RecvDataList[1] == 0xFF)) //FF, FF 확인
-                {
-                    RecvDataList.RemoveRange(0, 1); //FF, FF전 데이터삭제
-                    continue;
-                }
-                else if (RecvDataList[0] == 0xFF && RecvDataList[1] == 0xFF)
-                {
-                    if (RecvDataList[bufferlength_uwbonly - 2] == 0xFF && RecvDataList[bufferlength_uwbonly - 1] == 0xFE) //FF, FE 확인
-                    {
-                        RecvDataList.CopyTo(0, Rec_Check_uwbonly, 0, bufferlength_uwbonly);
-                      
-
-                       
-                        //uwb hex to short 
-                        // uwb 1 : range , power  + uwb 2 : range , power
-                        for (int i = 0; i < 3; i++)
-                        {
-                            int k = 2 * i;
-                            Tempo_UWB_Only[i] = (short)((Rec_Check_uwbonly[2 + k] << 8) + Rec_Check_uwbonly[3 + k]); // TMR + FSR
-                            if (flag_save == true)
-                            {
-                                file.Write("{0}", Tempo_UWB_Only[i]);
-                                if (i == 2)
-                                {
-                                    //file.Write(";");
-                                    file.Write("\n");
-                                }
-                                else
-                                {
-                                    file.Write(",");
-                                }
-                            }
-                        }
-                        RecvDataList.RemoveRange(0, bufferlength_uwbonly - 1);
-                    }
-                    else
-                    {
-                        RecvDataList.RemoveRange(0, bufferlength_uwbonly - 1); // 데이터 모두삭제
-                        continue;
-                    }
-                }
-            }
-        }
-        public void process_UWB_2()
-        {
-            for (; ; )
-            {
-                if (RecvDataList_UWB.Count < bufferlength_uwbonly + 1) continue;
-
-                if (!(RecvDataList_UWB[0] == 0xFF && RecvDataList_UWB[1] == 0xFF)) //FF, FF 확인
-                {
-                    RecvDataList_UWB.RemoveRange(0, 1); //FF, FF전 데이터삭제
-                    continue;
-                }
-                else if (RecvDataList_UWB[0] == 0xFF && RecvDataList_UWB[1] == 0xFF)
-                {
-                    if (RecvDataList_UWB[bufferlength_uwbonly - 2] == 0xFF && RecvDataList_UWB[bufferlength_uwbonly - 1] == 0xFE) //FF, FE 확인
-                    {
-                        RecvDataList_UWB.CopyTo(0, Rec_Check_uwbonly, 0, bufferlength_uwbonly);
-
-
-
-                        //uwb hex to short 
-                        // uwb 1 : range , power  + uwb 2 : range , power
-                        for (int i = 0; i < 3; i++)
-                        {
-                            int k = 2 * i;
-                            Tempo_UWB_Only[i+3] = (short)((Rec_Check_uwbonly[2 + k] << 8) + Rec_Check_uwbonly[3 + k]); // TMR + FSR
-                            if (flag_save == true)
-                            {
-                                file.Write("{0}", Tempo_UWB_Only[i + 3]);
-                                if (i == 2)
-                                {
-                                    //file.Write(";");
-                                    file.Write("\n");
-                                }
-                                else
-                                {
-                                    file.Write(",");
-                                }
-                            }
-                        }
-                        RecvDataList_UWB.RemoveRange(0, bufferlength_uwbonly - 1);
-                    }
-                    else
-                    {
-                        RecvDataList_UWB.RemoveRange(0, bufferlength_uwbonly - 1); // 데이터 모두삭제
-                        continue;
-                    }
-                }
-            }
-        }
+    
 
         private void Button_End(object sender, RoutedEventArgs e)
         {
@@ -662,16 +569,16 @@ namespace serial_new
             int L = 260;
             int W = 10;
             double x, y, z = 0;
-            double dist1 = Tempo_UWB_Only[0];
-            double dist2 = Tempo_UWB_Only[1];
-            double dist3 = Tempo_UWB_Only[2];
-            double dist4 = Tempo_UWB_Only[3];
-            double dist5 = Tempo_UWB_Only[4];
-            double dist6 = Tempo_UWB_Only[5];
+            //double dist1 = Tempo_UWB_Only[0];
+            //double dist2 = Tempo_UWB_Only[1];
+            //double dist3 = Tempo_UWB_Only[2];
+            //double dist4 = Tempo_UWB_Only[3];
+            //double dist5 = Tempo_UWB_Only[4];
+            //double dist6 = Tempo_UWB_Only[5];
 
-            x = (Math.Pow(dist1,2) - Math.Pow(dist3,2)) / (2 * L);
-            y = (Math.Pow(dist1, 2) - Math.Pow(dist2, 2) + Math.Pow(W, 2)/4 - L*x - Math.Pow(L, 2)/4) / (-W);
-            z = Math.Sqrt(Math.Pow(dist3, 2) - Math.Pow(x - L / 2, 2) - Math.Pow(y, 2));
+            //x = (Math.Pow(dist1,2) - Math.Pow(dist3,2)) / (2 * L);
+            //y = (Math.Pow(dist1, 2) - Math.Pow(dist2, 2) + Math.Pow(W, 2)/4 - L*x - Math.Pow(L, 2)/4) / (-W);
+            //z = Math.Sqrt(Math.Pow(dist3, 2) - Math.Pow(x - L / 2, 2) - Math.Pow(y, 2));
 
         }
         public void COP_Cal()
@@ -728,11 +635,11 @@ namespace serial_new
         {
             int[] Tempo_FSR2 = new int[11];
             int[] Tempo_IMU2 = new int[9];
-            short[] Tempo_UWB2 = new short[6];
+            short[] Tempo_UWB2 = new short[12];
 
             Buffer.BlockCopy(Tempo_FSR, 0, Tempo_FSR2, 0, 11 * 4);
             Buffer.BlockCopy(Tempo_IMU, 0, Tempo_IMU2, 0, 9 * 4);
-            Buffer.BlockCopy(Tempo_UWB, 0, Tempo_UWB2, 0, 6 * 2);
+            Buffer.BlockCopy(Tempo_UWB, 0, Tempo_UWB2, 0, 12 * 2);
 
             Time.Text = Tempo_FSR2[0].ToString();
             //right txt box
@@ -755,9 +662,15 @@ namespace serial_new
             Range1.Text = Tempo_UWB2[0].ToString();
             Range2.Text = Tempo_UWB2[1].ToString();
             Range3.Text = Tempo_UWB2[2].ToString();
-            Range4.Text = Tempo_UWB2[3].ToString();
-            Range5.Text = Tempo_UWB2[4].ToString();
-            Range6.Text = Tempo_UWB2[5].ToString();
+            Range1_power.Text = Tempo_UWB2[3].ToString();
+            Range2_power.Text = Tempo_UWB2[4].ToString();
+            Range3_power.Text = Tempo_UWB2[5].ToString();
+            Range4.Text = Tempo_UWB2[6].ToString();
+            Range5.Text = Tempo_UWB2[7].ToString();
+            Range6.Text = Tempo_UWB2[8].ToString();
+            Range4_power.Text = Tempo_UWB2[9].ToString();
+            Range5_power.Text = Tempo_UWB2[10].ToString();
+            Range6_power.Text = Tempo_UWB2[11].ToString();
 
             xyz.Text = x.ToString() + ',' + y.ToString() + ',' + z.ToString();
         }
