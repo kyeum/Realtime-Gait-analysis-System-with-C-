@@ -101,5 +101,7 @@
         <TextBox  x:Name="Range4_power" HorizontalAlignment="Left" Height="22" Margin="464,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62" IsReadOnly="True" Grid.Column="2"/>
         <TextBox  x:Name="Range5_power" HorizontalAlignment="Left" Height="22" Margin="541,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62" IsReadOnly="True" Grid.Column="2"/>
         <TextBox  x:Name="Range6_power" HorizontalAlignment="Left" Height="22" Margin="617,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62" IsReadOnly="True" Grid.Column="2"/>
+        <RadioButton x:Name="Rad_3b3" Content="3by3" Grid.Column="2" HorizontalAlignment="Left" Margin="705,57,0,0" VerticalAlignment="Top" Checked="Rad_3b3_Checked" IsChecked="True"/>
+        <RadioButton x:Name="Rad_2b2" Content="2by2" Grid.Column="2" HorizontalAlignment="Left" Margin="705,77,0,0" VerticalAlignment="Top" Checked="Rad_2b2_Checked"/>
     </Grid>
 </Window>

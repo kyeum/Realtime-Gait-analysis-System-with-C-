@@ -123,6 +123,9 @@ namespace serial_new
         private System.Windows.Forms.Timer timer;
         Queue<TimerTask> timerTaskQueue = new Queue<TimerTask>();
 
+        bool uwb_2b2 = false;
+        bool uwb_3b3 = true;
+        
         #region Initial
         public MainWindow()
         {
@@ -466,7 +469,13 @@ namespace serial_new
                                 catch { }    
                                 }
                             }
+                        try
+                        {
                             RecvDataList.RemoveRange(0, bufferlength - 1);
+
+                        }
+                        catch { }
+                        
                         }
                         else
                         {
@@ -631,6 +640,19 @@ namespace serial_new
                 COP_D(COP_que);
             }
         }
+
+        private void Rad_3b3_Checked(object sender, RoutedEventArgs e)
+        {
+            uwb_3b3 = true;
+            uwb_2b2 = false;
+        }
+
+        private void Rad_2b2_Checked(object sender, RoutedEventArgs e)
+        {
+            uwb_2b2 = true;
+            uwb_3b3 = false;
+        }
+
         public void Text_box_in()//object sender, System.EventArgs e
         {
             int[] Tempo_FSR2 = new int[11];
@@ -659,25 +681,40 @@ namespace serial_new
             IMU_ROLL.Text = Tempo_IMU2[0].ToString() + ',' + Tempo_IMU2[1].ToString() + ',' + Tempo_IMU2[2].ToString(); // imu calcuation 
             IMU_PITCH.Text = Tempo_IMU2[3].ToString() + ',' + Tempo_IMU2[4].ToString() + ',' + Tempo_IMU2[5].ToString();
             IMU_YAW.Text = Tempo_IMU2[6].ToString() + ',' + Tempo_IMU2[7].ToString() + ',' + Tempo_IMU2[8].ToString();
-            Range1.Text = Tempo_UWB2[0].ToString();
-            Range2.Text = Tempo_UWB2[1].ToString();
-            Range3.Text = Tempo_UWB2[2].ToString();
-            Range1_power.Text = Tempo_UWB2[3].ToString();
-            Range2_power.Text = Tempo_UWB2[4].ToString();
-            Range3_power.Text = Tempo_UWB2[5].ToString();
-            Range4.Text = Tempo_UWB2[6].ToString();
-            Range5.Text = Tempo_UWB2[7].ToString();
-            Range6.Text = Tempo_UWB2[8].ToString();
-            Range4_power.Text = Tempo_UWB2[9].ToString();
-            Range5_power.Text = Tempo_UWB2[10].ToString();
-            Range6_power.Text = Tempo_UWB2[11].ToString();
+            if(uwb_3b3)
+            {
+                Range1.Text = Tempo_UWB2[0].ToString();
+                Range2.Text = Tempo_UWB2[1].ToString();
+                Range3.Text = Tempo_UWB2[2].ToString();
+                Range1_power.Text = Tempo_UWB2[3].ToString();
+                Range2_power.Text = Tempo_UWB2[4].ToString();
+                Range3_power.Text = Tempo_UWB2[5].ToString();
+                Range4.Text = Tempo_UWB2[6].ToString();
+                Range5.Text = Tempo_UWB2[7].ToString();
+                Range6.Text = Tempo_UWB2[8].ToString();
+                Range4_power.Text = Tempo_UWB2[9].ToString();
+                Range5_power.Text = Tempo_UWB2[10].ToString();
+                Range6_power.Text = Tempo_UWB2[11].ToString();
+            }
+            else if (uwb_2b2)
+            {
+                Range1.Text = Tempo_UWB2[0].ToString();
+                Range3.Text = Tempo_UWB2[1].ToString();
+                Range1_power.Text = Tempo_UWB2[2].ToString();
+                Range3_power.Text = Tempo_UWB2[3].ToString();
+                Range4.Text = Tempo_UWB2[4].ToString();
+                Range6.Text = Tempo_UWB2[5].ToString();
+                Range4_power.Text = Tempo_UWB2[6].ToString();
+                Range6_power.Text = Tempo_UWB2[7].ToString();
+            }
+            
 
             xyz.Text = x.ToString() + ',' + y.ToString() + ',' + z.ToString();
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            UWB_mode = true;
+
         }
 
         private void Window_Closed(object sender, EventArgs e)
